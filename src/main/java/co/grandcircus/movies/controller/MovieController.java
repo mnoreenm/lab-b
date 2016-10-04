@@ -87,7 +87,7 @@ public class MovieController {
 	}
 
 	/**
-	 * Display one movie
+	 * Add one movie
 	 */
 	@RequestMapping(value = "/movies/create", method = RequestMethod.GET)
 	public String createMovieForm(Model model) {
